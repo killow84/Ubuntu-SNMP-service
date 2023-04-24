@@ -21,7 +21,7 @@ agentaddress udp:161,udp6:[::1]:161
 #### Now, we will add an SNMPV1 / SNMPv2C community in read-only (view).
 The basic syntax is as follows:
 ```
-rocommunity CommunityName default
+rocommunity  default
 ```
 In this way the community created will be accessible by everyone, to limit access to a network or an IP address, you must replace default by a CIRD notation.
 ```
